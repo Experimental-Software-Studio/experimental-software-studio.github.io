@@ -1,0 +1,14 @@
+@import "../../styles/variables.css";
+
+.section {
+  padding: 0 100px;
+}
+
+.alt {
+  background-color: var(--color-experimental-gray);
+}
+
+.content {
+  max-width: 800px;
+  margin: auto;
+}
