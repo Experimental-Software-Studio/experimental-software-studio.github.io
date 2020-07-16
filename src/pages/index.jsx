@@ -3,6 +3,7 @@ import React from "react";
 import SEO from "../components/SEO";
 import Layout from "../components/Layout";
 import Section from "../components/Section";
+import Divider from "../components/Divider";
 import { pageEnum } from "../constants";
 
 const HomePage = () => (
@@ -18,7 +19,7 @@ const HomePage = () => (
         <h1>Experimental Software</h1>
         <h1>Experimental Software</h1>
       </Section>
-
+      <Divider />
       <Section alt>
         <h1>Experimental Software</h1>
         <h1>Experimental Software</h1>
@@ -27,7 +28,7 @@ const HomePage = () => (
         <h1>Experimental Software</h1>
         <h1>Experimental Software</h1>
       </Section>
-
+      <Divider alt />
       <Section>
         <h1>Experimental Software</h1>
         <h1>Experimental Software</h1>
