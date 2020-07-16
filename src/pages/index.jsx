@@ -5,8 +5,11 @@ import Layout from "../components/Layout";
 import Section from "../components/Section";
 import Divider from "../components/Divider";
 import Emphasis from "../components/Emphasis";
+import Project from "../components/Project";
 import { pageEnum } from "../constants";
 import FeatureArt from "../images/feature-art.svg";
+import SmokebuddyLogo from "../images/smokebuddy-logo.png";
+import LoqipLogo from "../images/loqip-logo.png";
 import styles from "./index.module.css";
 
 const HomePage = () => (
@@ -43,12 +46,18 @@ const HomePage = () => (
       <Divider />
 
       <Section alt>
-        <h1>Experimental Software</h1>
-        <h1>Experimental Software</h1>
-        <h1>Experimental Software</h1>
-        <h1>Experimental Software</h1>
-        <h1>Experimental Software</h1>
-        <h1>Experimental Software</h1>
+        <h1>What we've done</h1>
+        <Emphasis />
+        <Project
+          logo={SmokebuddyLogo}
+          text="Tracked millions of products through the supply chain from factory to
+          customer"
+        />
+        <Project
+          logo={LoqipLogo}
+          text="Built scalable cross-platform MVP for initial funding round and
+          investor testing"
+        />
       </Section>
       <Divider alt />
       <Section>

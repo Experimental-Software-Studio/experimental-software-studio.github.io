@@ -1,0 +1,18 @@
+import React from "react";
+import PropTypes from "prop-types";
+
+import styles from "./styles.module.css";
+
+const Project = ({ logo, text }) => (
+  <div className={styles.project}>
+    <img src={logo} />
+    <h2>{text}</h2>
+  </div>
+);
+
+Project.propTypes = {
+  logo: PropTypes.node.isRequired,
+  text: PropTypes.string.isRequired,
+};
+
+export default Project;
