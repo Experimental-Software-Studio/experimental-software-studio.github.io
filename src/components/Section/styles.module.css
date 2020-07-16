@@ -1,7 +1,7 @@
 @import "../../styles/variables.css";
 
 .section {
-  padding: 20px 100px;
+  padding: 20px var(--section-padding-horiz);
   overflow: auto;
 }
 
@@ -10,6 +10,6 @@
 }
 
 .content {
-  max-width: 800px;
+  max-width: var(--max-width);
   margin: auto;
 }

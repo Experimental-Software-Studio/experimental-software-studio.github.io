@@ -2,4 +2,6 @@
   --color-experimental-blue: #395a8c;
   --color-experimental-gray: #eeeeee;
   --header-height: 70px;
+  --max-width: 1000px;
+  --section-padding-horiz: 100px;
 }

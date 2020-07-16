@@ -22,9 +22,9 @@ const Header = ({ page }) => {
 
   return (
     <div className={styles.header}>
-      <img className={styles.flexChild} src={LogoSquareCircle} alt="logo" />
+      <img src={LogoSquareCircle} alt="logo" />
 
-      <div className={styles.flexChild}>
+      <div>
         <Link to="/" className={homePageClass}>
           HOME
         </Link>

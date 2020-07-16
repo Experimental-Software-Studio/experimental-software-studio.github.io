@@ -11,10 +11,6 @@
   width: 100%;
 }
 
-.flexChild {
-  flex: 0;
-}
-
 .link {
   color: white;
   font-family: "Raleway", sans-serif;
