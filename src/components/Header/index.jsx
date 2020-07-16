@@ -3,7 +3,7 @@ import { Link } from "gatsby";
 import PropTypes from "prop-types";
 
 import { pageEnum } from "../../constants";
-import LogoSquareCircle from "../../images/logo-square-circle.svg";
+import Logo from "../../images/logo-white-bg.png";
 import styles from "./styles.module.css";
 
 const Header = ({ page }) => {
@@ -22,7 +22,7 @@ const Header = ({ page }) => {
 
   return (
     <div className={styles.header}>
-      <img src={LogoSquareCircle} alt="logo" />
+      <img src={Logo} alt="logo" />
 
       <div>
         <Link to="/" className={homePageClass}>

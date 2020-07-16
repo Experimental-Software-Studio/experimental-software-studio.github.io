@@ -59,14 +59,12 @@ const HomePage = () => (
           investor testing"
         />
       </Section>
+
       <Divider alt />
+
       <Section>
-        <h1>Experimental Software</h1>
-        <h1>Experimental Software</h1>
-        <h1>Experimental Software</h1>
-        <h1>Experimental Software</h1>
-        <h1>Experimental Software</h1>
-        <h1>Experimental Software</h1>
+        <h1>Let's get in touch</h1>
+        <Emphasis />
       </Section>
     </Layout>
   </div>
