@@ -1,12 +1,33 @@
 import React from "react";
+
 import SEO from "../components/SEO";
-import Header from "../components/Header";
+import Layout from "../components/Layout";
+import { pageEnum } from "../constants";
 
 const HomePage = () => (
   <div>
     <SEO title="Home" />
-    <Header />
-    <h1>Experimental Software</h1>
+    <Layout page={pageEnum.HOME}>
+      <h1>asdf Software</h1>
+      <h1>Experimental Software</h1>
+      <h1>Experimental Software</h1>
+      <h1>Experimental Software</h1>
+      <h1>Experimental Software</h1>
+      <h1>Experimental Software</h1>
+      <h1>Experimental Software</h1>
+      <h1>Experimental Software</h1>
+      <h1>Experimental Software</h1>
+      <h1>Experimental Software</h1>
+      <h1>Experimental Software</h1>
+      <h1>Experimental Software</h1>
+      <h1>Experimental Software</h1>
+      <h1>Experimental Software</h1>
+      <h1>Experimental Software</h1>
+      <h1>Experimental Software</h1>
+      <h1>Experimental Software</h1>
+      <h1>Experimental Software</h1>
+      <h1>Experimental Software</h1>
+    </Layout>
   </div>
 );
 
