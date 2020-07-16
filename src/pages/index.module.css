@@ -1,0 +1,48 @@
+.horiz {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 40px 0 140px 0;
+}
+
+.featureArt {
+  width: 450px;
+  margin-right: 50px;
+}
+
+.featureText {
+  font-family: "Alegreya Sans", sans-serif;
+  font-weight: bold;
+  font-size: 70px;
+  margin: 0;
+  background: linear-gradient(
+      to right,
+      rgb(255, 255, 255) 0%,
+      rgb(255, 255, 255) 5%,
+      rgba(255, 255, 255, 0) 5%
+    ),
+    linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 0) 55%,
+      var(--color-experimental-green) 50%
+    );
+}
+
+.text1 {
+  width: 280px;
+}
+
+.text2 {
+  width: 325px;
+}
+
+.text3 {
+  width: 190px;
+}
+
+.featureQuote {
+  font-weight: 400;
+  font-style: italic;
+  font-family: "Roboto", sans-serif;
+  font-size: 30px;
+}

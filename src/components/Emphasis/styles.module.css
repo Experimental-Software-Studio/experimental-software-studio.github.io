@@ -1,0 +1,7 @@
+@import "../../styles/variables.css";
+
+.emphasis {
+  height: 10px;
+  width: 80px;
+  background-color: var(--color-experimental-blue);
+}

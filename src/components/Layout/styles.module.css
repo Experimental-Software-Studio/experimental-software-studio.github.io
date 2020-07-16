@@ -2,4 +2,5 @@
 
 .content {
   margin-top: var(--header-height);
+  padding-top: 50px;
 }
