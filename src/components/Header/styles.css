@@ -1,0 +1,13 @@
+@import "../../styles/variables.css";
+
+a {
+  color: white;
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.header {
+  height: 50px;
+  background-color: var(--color-experimental-blue);
+}
