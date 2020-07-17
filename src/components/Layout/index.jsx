@@ -7,11 +7,11 @@ import styles from "./styles.module.css";
 
 const Layout = ({ page, children }) => {
   return (
-    <>
+    <div className={styles.layout}>
       <Header page={page} />
       <main className={styles.content}>{children}</main>
       <Footer />
-    </>
+    </div>
   );
 };
 

@@ -10,23 +10,6 @@ const HomePage = () => (
     <Layout page={pageEnum.CONTACT}>
       <h1>asdf Software</h1>
       <h1>contact</h1>
-      <h1>contact</h1>
-      <h1>contact</h1>
-      <h1>contact</h1>
-      <h1>contact</h1>
-      <h1>contact</h1>
-      <h1>contact</h1>
-      <h1>contact</h1>
-      <h1>contact</h1>
-      <h1>contact</h1>
-      <h1>contact</h1>
-      <h1>contact</h1>
-      <h1>contact</h1>
-      <h1>contact</h1>
-      <h1>contact</h1>
-      <h1>contact</h1>
-      <h1>contact</h1>
-      <h1>contact</h1>
     </Layout>
   </div>
 );

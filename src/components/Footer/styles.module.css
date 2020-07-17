@@ -2,13 +2,16 @@
 
 .footer {
   background-color: var(--color-experimental-blue);
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 }
 
 .content {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  height: 120px;
+  height: var(--footer-height);
   margin: auto;
   max-width: calc(var(--max-width) + 2 * var(--section-padding-horiz));
 }
