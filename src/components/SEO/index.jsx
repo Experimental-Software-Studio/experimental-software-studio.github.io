@@ -71,7 +71,7 @@ const SEO = ({ description, lang, meta, image, title }) => {
           content: metaDescription,
         },
         {
-          property: `twitter:image`,
+          name: `twitter:image`,
           content: metaImage,
         },
       ].concat(meta)}
