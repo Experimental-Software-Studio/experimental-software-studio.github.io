@@ -3,7 +3,7 @@ import { Link } from "gatsby";
 import PropTypes from "prop-types";
 
 import { pageEnum } from "../../constants";
-import Logo from "../../images/logo-white-bg.png";
+import Logo from "../../images/logo-white-bg.svg";
 import styles from "./styles.module.css";
 
 const Header = ({ page }) => {

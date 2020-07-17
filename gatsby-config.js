@@ -1,8 +1,9 @@
 module.exports = {
   siteMetadata: {
     title: `Experimental Software`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    description: `We are the team of software engineers and designers that will turn your idea into a product.`,
+    author: `@alexanderqchen`,
+    siteUrl: "https://experimental.software/",
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -27,6 +28,7 @@ module.exports = {
         icon: `src/images/logo-square-rounded.png`, // This path is relative to the root of the site.
       },
     },
+    "gatsby-plugin-cname",
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
