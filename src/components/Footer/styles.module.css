@@ -14,21 +14,22 @@
   height: var(--footer-height);
   margin: auto;
   max-width: calc(var(--max-width) + 2 * var(--section-padding-horiz));
+  padding: 0 40px;
 }
 
 .socials {
   display: flex;
+  flex: 1;
   align-items: center;
-  padding: 20px;
-  width: 160px;
 }
 
 .social {
-  margin-left: 20px;
+  margin-right: 20px;
 }
 
 .logoContainer {
   display: flex;
+  flex: 1;
   flex-direction: column;
   justify-content: center;
 }
@@ -47,11 +48,10 @@
 
 .links {
   display: flex;
+  flex: 1;
   flex-direction: column;
   justify-content: center;
   align-items: flex-end;
-  width: 160px;
-  padding-right: 40px;
 }
 
 .link {

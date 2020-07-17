@@ -10,8 +10,22 @@ const Footer = () => (
   <div className={styles.footer}>
     <div className={styles.content}>
       <div className={styles.socials}>
-        <img src={GithubLogo} className={styles.social} alt="GitHub Logo" />
-        <img src={LinkedinLogo} className={styles.social} alt="LinkedIn Logo" />
+        <a
+          href="https://github.com/Experimental-Software-Studio"
+          target="_blank"
+        >
+          <img src={GithubLogo} className={styles.social} alt="GitHub Logo" />
+        </a>
+        <a
+          href="https://www.linkedin.com/company/experimental-software"
+          target="_blank"
+        >
+          <img
+            src={LinkedinLogo}
+            className={styles.social}
+            alt="LinkedIn Logo"
+          />
+        </a>
       </div>
       <div className={styles.logoContainer}>
         <img src={Logo} className={styles.logo} />
