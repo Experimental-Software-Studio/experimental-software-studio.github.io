@@ -3,7 +3,7 @@ import { Link } from "gatsby";
 
 import LinkedinLogo from "../../images/linkedin-logo.png";
 import GithubLogo from "../../images/github-logo.png";
-import Logo from "../../images/logo.png";
+import Logo from "../../images/logo.svg";
 import styles from "./styles.module.css";
 
 const Footer = () => (
