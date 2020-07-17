@@ -72,7 +72,7 @@ const SEO = ({ description, lang, meta, image, title }) => {
         },
         {
           name: `twitter:image`,
-          content: metaImage,
+          content: "https://experimental.software/logo-banner.png",
         },
       ].concat(meta)}
     >
