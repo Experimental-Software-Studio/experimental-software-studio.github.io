@@ -75,7 +75,12 @@ const SEO = ({ description, lang, meta, image, title }) => {
           content: metaImage,
         },
       ].concat(meta)}
-    />
+    >
+      <link
+        rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@700&family=Poppins:wght@700&family=Raleway:wght@400;500;700&family=Roboto:ital,wght@0,400;0,500;1,400;1,500&display=swap"
+      />
+    </Helmet>
   );
 };
 
