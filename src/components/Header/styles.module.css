@@ -19,3 +19,23 @@
 .active {
   font-style: italic;
 }
+
+@media only screen and (max-width: 768px) {
+  .header {
+    display: block;
+    text-align: center;
+    height: auto;
+  }
+
+  .links {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .link {
+    flex: 1;
+    line-height: normal;
+    margin-right: 0;
+    font-size: 15px;
+  }
+}

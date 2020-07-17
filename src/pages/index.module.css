@@ -24,7 +24,7 @@
     linear-gradient(
       180deg,
       rgba(255, 255, 255, 0) 55%,
-      var(--color-experimental-green) 50%
+      var(--color-experimental-yellow) 50%
     );
 }
 
@@ -46,4 +46,51 @@
   font-family: "Roboto", sans-serif;
   font-size: 30px;
   margin: 20px 0;
+}
+
+@media only screen and (max-width: 768px) {
+  .horiz {
+    display: block;
+    text-align: center;
+    margin: 0;
+  }
+  .featureArt {
+    width: 100%;
+    margin: 0;
+    max-width: 400px;
+  }
+  .textContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0;
+  }
+  .featureText {
+    font-size: 50px;
+    background: linear-gradient(
+        to right,
+        rgb(255, 255, 255) 0%,
+        rgb(255, 255, 255) 10%,
+        rgba(255, 255, 255, 0) 10%
+      ),
+      linear-gradient(
+        180deg,
+        rgba(255, 255, 255, 0) 55%,
+        var(--color-experimental-yellow) 50%
+      );
+  }
+  .text1 {
+    width: 210px;
+  }
+  .text2 {
+    width: 250px;
+  }
+  .text3 {
+    width: 140px;
+  }
+
+  .featureQuote {
+    font-size: 20px;
+    margin: 40px 0 5px 0;
+  }
 }

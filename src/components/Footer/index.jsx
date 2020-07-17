@@ -23,6 +23,23 @@ const Footer = () => (
         </Link>
         <a className={styles.link}>Careers</a>
       </div>
+
+      <div className={styles.mobileInfo}>
+        <div className={styles.mobileSocials}>
+          <img src={GithubLogo} className={styles.social} alt="GitHub Logo" />
+          <img
+            src={LinkedinLogo}
+            className={styles.social}
+            alt="LinkedIn Logo"
+          />
+        </div>
+        <div className={styles.mobileLinks}>
+          <Link to="/about" className={styles.link}>
+            About
+          </Link>
+          <a className={styles.link}>Careers</a>
+        </div>
+      </div>
     </div>
   </div>
 );

@@ -1,3 +1,13 @@
 .project {
   margin: 120px 0 50px 0;
 }
+
+@media only screen and (max-width: 768px) {
+  .project {
+    margin: 40px 0 20px 0;
+  }
+
+  .logo {
+    height: 50px;
+  }
+}

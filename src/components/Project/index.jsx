@@ -5,7 +5,7 @@ import styles from "./styles.module.css";
 
 const Project = ({ logo, text }) => (
   <div className={styles.project}>
-    <img src={logo} />
+    <img src={logo} className={styles.logo} />
     <h2>{text}</h2>
   </div>
 );
