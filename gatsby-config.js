@@ -4,7 +4,7 @@ module.exports = {
     description: `We are the team of software engineers and designers that will turn your idea into a product.`,
     author: `@alexanderqchen`,
     siteUrl: "https://experimental.software/",
-    image: "/images/logo-banner.png",
+    image: "/logo-banner.png",
   },
   plugins: [
     `gatsby-plugin-react-helmet`,

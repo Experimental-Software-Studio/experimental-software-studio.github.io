@@ -21,6 +21,8 @@ const SEO = ({ description, lang, meta, image, title }) => {
   const metaDescription = description || site.siteMetadata.description;
   const metaImage = image || site.siteMetadata.image;
 
+  console.log(metaImage);
+
   return (
     <Helmet
       htmlAttributes={{
@@ -65,7 +67,6 @@ const SEO = ({ description, lang, meta, image, title }) => {
           property: `og:image`,
           content: metaImage,
         },
-
         {
           property: `twitter:image`,
           content: metaImage,

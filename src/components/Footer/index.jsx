@@ -13,12 +13,14 @@ const Footer = () => (
         <a
           href="https://github.com/Experimental-Software-Studio"
           target="_blank"
+          rel="noreferrer"
         >
           <img src={GithubLogo} className={styles.social} alt="GitHub Logo" />
         </a>
         <a
           href="https://www.linkedin.com/company/experimental-software"
           target="_blank"
+          rel="noreferrer"
         >
           <img
             src={LinkedinLogo}
@@ -28,14 +30,16 @@ const Footer = () => (
         </a>
       </div>
       <div className={styles.logoContainer}>
-        <img src={Logo} className={styles.logo} />
+        <img src={Logo} className={styles.logo} alt="logo" />
         <p className={styles.copyright}>© 2020 Experimental Software LLC</p>
       </div>
       <div className={styles.links}>
         <Link to="/about" className={styles.link}>
           About
         </Link>
-        <a className={styles.link}>Careers</a>
+        <Link to="/careers" className={styles.link}>
+          Careers
+        </Link>
       </div>
 
       <div className={styles.mobileInfo}>
@@ -51,7 +55,9 @@ const Footer = () => (
           <Link to="/about" className={styles.link}>
             About
           </Link>
-          <a className={styles.link}>Careers</a>
+          <Link to="/careers" className={styles.link}>
+            Careers
+          </Link>{" "}
         </div>
       </div>
     </div>
