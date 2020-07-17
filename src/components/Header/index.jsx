@@ -24,7 +24,8 @@ const Header = ({ page }) => {
     <div className={styles.header}>
       <img src={Logo} alt="logo" className={styles.logo} />
 
-      <div className={styles.links}>
+      {/* TODO: Add these back in when you make the other pages */}
+      {/* <div className={styles.links}>
         <Link to="/" className={homePageClass}>
           HOME
         </Link>
@@ -34,7 +35,7 @@ const Header = ({ page }) => {
         <Link to="/contact" className={contactPageClass}>
           CONTACT
         </Link>
-      </div>
+      </div> */}
     </div>
   );
 };
