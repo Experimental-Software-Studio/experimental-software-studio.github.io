@@ -22,7 +22,9 @@ const Header = ({ page }) => {
 
   return (
     <div className={styles.header}>
-      <img src={Logo} alt="logo" className={styles.logo} />
+      <Link to="/">
+        <img src={Logo} alt="logo" className={styles.logo} />
+      </Link>
 
       {/* TODO: Add these back in when you make the other pages */}
       {/* <div className={styles.links}>
