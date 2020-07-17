@@ -3,7 +3,7 @@ module.exports = {
     title: `Experimental Software`,
     description: `We are the team of software engineers and designers that will turn your idea into a product.`,
     author: `@alexanderqchen`,
-    siteUrl: "https://experimental.software/",
+    siteUrl: "https://experimental.software",
     image: "/logo-banner.png",
   },
   plugins: [
