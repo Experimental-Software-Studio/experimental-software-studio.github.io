@@ -1,8 +1,8 @@
 import React from "react";
 import { Link } from "gatsby";
 
-import LinkedinLogo from "../../images/linkedin-logo.png";
-import GithubLogo from "../../images/github-logo.png";
+import LinkedinLogo from "../../images/linkedin-logo.svg";
+import GithubLogo from "../../images/github-logo.svg";
 import Logo from "../../images/logo.svg";
 import styles from "./styles.module.css";
 
