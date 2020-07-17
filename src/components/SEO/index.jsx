@@ -21,8 +21,6 @@ const SEO = ({ description, lang, meta, image, title }) => {
   const metaDescription = description || site.siteMetadata.description;
   const metaImage = image || site.siteMetadata.image;
 
-  console.log(metaImage);
-
   return (
     <Helmet
       htmlAttributes={{
@@ -49,7 +47,7 @@ const SEO = ({ description, lang, meta, image, title }) => {
         },
         {
           name: `twitter:card`,
-          content: `summary`,
+          content: `summary_large_image`,
         },
         {
           name: `twitter:creator`,
