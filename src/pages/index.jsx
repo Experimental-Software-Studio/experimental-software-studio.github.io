@@ -6,7 +6,6 @@ import Section from "../components/Section";
 import Divider from "../components/Divider";
 import Emphasis from "../components/Emphasis";
 import Project from "../components/Project";
-import ContactForm from "../components/ContactForm";
 import { pageEnum } from "../constants";
 import FeatureArt from "../images/feature-art.svg";
 import SmokebuddyLogo from "../images/smokebuddy-logo.png";
@@ -59,14 +58,6 @@ const HomePage = () => (
           text="Built scalable cross-platform MVP for initial funding round and
           investor testing"
         />
-      </Section>
-
-      <Divider alt />
-
-      <Section>
-        <h1>Let's get in touch</h1>
-        <Emphasis />
-        <ContactForm />
       </Section>
     </Layout>
   </div>
